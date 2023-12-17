@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "description": "Simple Chrome extension built using TypeScript, React and esbuild",
   "scripts": {
-    "dev": "tsc && ./build.js -d",
-    "build": "tsc && ./build.js",
+    "dev": "tsc && node ./build.js -d",
+    "build": "tsc && node ./build.js",
     "preview": "npx http-server ./dist/popup -a localhost -p 8000"
   },
   "author": "Matt Burrell",
